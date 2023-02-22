@@ -1,0 +1,64 @@
+.parent{
+    text-align: center;
+    padding: 2% ;
+}
+
+.shop{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.shop_item{
+    width: calc(25% - 60px);
+    height: 250px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.shop_item img{
+    width: 100%;
+    height: 100%;
+}
+
+.delete_button{
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.status_button{
+    border: none;
+    background-color: rgb(25, 172, 25);
+    color: white;
+}
+
+.cap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.par{
+    background-color: greenyellow;
+    padding: 1px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.colorr{
+    background-color: green;
+}
+
+.block{
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+}
+
+.show{
+    display: none;
+}
