@@ -1,0 +1,125 @@
+.testimonials{
+    padding: 10%;
+    background-image: url("../../img/testimonial_back.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0e0e;
+    font-size: 58px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+
+.testimonials h4{
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0e0e;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.testimonialinfo{
+    display: flex;
+    padding: 5% 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.abouttest{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #a09d9d;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.mentor{
+    margin-bottom: 20px;
+}
+
+.mentor img{
+    width: 100%;
+}
+
+.acc{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #ffac35;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.circleparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_item{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.circle_item:hover{
+    background-color: #ffac35;
+    border-color: #ffac35;
+    cursor: pointer;
+}
+
+.circle_item:nth-child(1){
+    margin-right: 20px;
+    background-color: #ffac35;
+    border-color: #ffac35;
+}
+
+.circle_item:nth-child(3){
+    margin-left: 20px;
+}
+
+@media(max-width: 1000px){
+    .testimonials h2{
+        font-size: 26px;
+    }
+
+    .testimonials h4{
+        font-size: 16px;
+    }
+
+    .abouttest{
+        font-size: 13px;
+    }
+    .acc{
+        font-size: 10px;
+    }
+    .circle_item:nth-child(1){
+        margin-right: 10px;
+    }
+    
+    .circle_item:nth-child(3){
+        margin-left: 10px;
+    }
+    
+}

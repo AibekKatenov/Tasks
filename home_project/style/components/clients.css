@@ -1,0 +1,81 @@
+.client{
+    padding: 5% 10%;
+    background-image: url("../../img/clientsback.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.client h2{
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0e0e;
+    font-size: 58px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    margin-bottom: 50px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #ffac35;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientsphoto{
+    display: flex;
+}
+
+.arrow:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.arrow:hover i{
+    color: #fff;
+}
+
+.clients img:hover{
+    cursor: pointer;
+}
+
+@media(max-width:1350px){
+    .clientsphoto1{
+        display: none;
+    }
+}
+
+@media(max-width:1050px){
+    .clientsphoto2{
+        display: none;
+    }
+    .client h2{
+        font-size: 26px;
+    }
+    .arrow{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(max-width:750px){
+    .clientsphoto3{
+        display: none;
+    }
+    .client{
+        padding: 2%;
+    }
+}

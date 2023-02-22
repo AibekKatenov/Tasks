@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Light.ttf");
+}
+
+.main{
+    background-image: url("../../img/main.jpg") ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 10%;
+}
+
+.motosecond,.motofirst{
+    color: #ffffff;
+}
+
+.parag2{
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto'", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.motofirst{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 86px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+.parag{
+    color: #ffac35;
+    font-weight: 700;
+}
+
+.motosecond{
+    font-weight: 700
+}
+
+.linker{
+    padding:15px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffac35;
+    border: 3px solid #ffac35;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0e0e0e;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.linker:hover{
+    color: #fff;
+    background-color: #a09d9d;
+    border-color: transparent;
+}
+
+
+@media(max-width:1000px){
+    .motofirst{
+        font-size: 34px;
+    }
+    .parag2{
+        font-size: 18px;
+    }
+    .linker{
+        padding: 20px 10px;
+    }
+}

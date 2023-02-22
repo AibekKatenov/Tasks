@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Montserrat1";
+    src: url("../../fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat2";
+    src: url("../../fonts/Montserrat-Bold.ttf");
+}
+
+.parallax{
+    background-image: url("../../img/background-attachment.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkerclone{
+    padding:15px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffac35;
+    border: 3px solid #ffac35;
+    border-radius: 30px;
+    font-family: "Montserrat1", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0e0e0e;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.linkerclone:hover{
+    color: #fff;
+    background-color: #a09d9d;
+    border-color: transparent;
+}
+
+
+.parallax h2{
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat1", sans-serif;
+    color: #0e0e0e;
+    font-size: 58px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.parallax h3{
+    font-style: normal;
+    font-family: "Montserrat2", sans-serif;
+    color: #0e0e0e;
+    font-size: 58px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.parallax h3 span{
+    color: #ffac35;
+}
+
+@media(max-width:1050px){
+    .parallax h2,
+    .parallax h3{
+        font-size: 26px;
+    }
+}
